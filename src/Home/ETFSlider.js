@@ -1,4 +1,4 @@
-import Card from "./Card";
+import ETFCard from "./ETFCard";
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,7 +16,7 @@ function ETFSlider() {
     <div style={{ marginTop: "10%" }}>
       <Slider {...settings}>
         <div>
-          <Card
+          <ETFCard
             src="images/ETF-Content/Bad Clowyn.png"
             name="Bad Clowyn"
             price="0.465"
@@ -24,7 +24,7 @@ function ETFSlider() {
           />
         </div>
         <div>
-          <Card
+          <ETFCard
             src="images/ETF-Content/Bad Clowyn.png"
             name="Bad Clowyn"
             price="0.465"
@@ -32,7 +32,7 @@ function ETFSlider() {
           />
         </div>
         <div>
-          <Card
+          <ETFCard
             src="images/ETF-Content/Bad Clowyn.png"
             name="Bad Clowyn"
             price="0.465"

@@ -1,9 +1,9 @@
 import React from "react";
 
-function Card({ src, name, price, creator }) {
+function ETFCard({ src, name, price, creator }) {
   return (
     <div style={{ width: "70%", margin: "auto" }}>
-      <img src={src} alt="image-1" width="263px" />
+      <img src={src} alt="1" width="263px" />
       <div>
         <div style={{ marginTop: "2vh" }}>
           <div style={{ float: "left" }}>{name}</div>
@@ -12,7 +12,7 @@ function Card({ src, name, price, creator }) {
         <br />
         <div style={{ marginTop: "2vh" }}>
           <div style={{ float: "left", display: "flex" }}>
-            <img src="images/man.png" width="40px" height="40px" />
+            <img src="images/man.png" width="40px" height="40px" alt="" />
             <div style={{ marginLeft: "0.5vh" }}>
               {creator}
               <div style={{ fontWeight: "400", color: "#939191" }}>Creator</div>
@@ -39,4 +39,4 @@ function Card({ src, name, price, creator }) {
   );
 }
 
-export default Card;
+export default ETFCard;

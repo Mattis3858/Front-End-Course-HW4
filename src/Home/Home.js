@@ -1,10 +1,12 @@
 import React from "react";
-import ETFSlider from "./ETFSlider";
-import "swiper/css";
+import Navbar from "./Navbar";
+import TopSelling from "./TopSelling";
 
-function TopSelling() {
+function Home() {
   return (
     <div>
+      <Navbar />
+      <TopSelling />
       <div style={{ marginTop: "7%" }}>
         <div
           style={{
@@ -12,9 +14,10 @@ function TopSelling() {
             fontSize: "18px",
             color: "#101010",
             float: "left",
+            marginLeft: "4%",
           }}
         >
-          Top Selling
+          Top Artist
         </div>
         <div
           style={{
@@ -27,10 +30,8 @@ function TopSelling() {
           See all
         </div>
       </div>
-      <br />
-      <ETFSlider />
     </div>
   );
 }
 
-export default TopSelling;
+export default Home;

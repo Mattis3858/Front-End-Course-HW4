@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Home.css";
+import "../css/Home.css";
 import { BsFillBellFill } from "react-icons/bs";
 import { SlMagnifier } from "react-icons/sl";
 
