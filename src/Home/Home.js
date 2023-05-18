@@ -4,7 +4,7 @@ import TopSelling from "./TopSelling";
 
 function Home() {
   return (
-    <div>
+    <div style={{ width: "95vw" }}>
       <Navbar />
       <TopSelling />
       <div style={{ marginTop: "7%" }}>

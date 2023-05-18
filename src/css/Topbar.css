@@ -1,5 +1,5 @@
 .topbar {
-  display: flex;
+  display: inline-block;
   height: 5vh;
 }
 .topbar-left {

@@ -6,7 +6,8 @@ import "./css/App.css";
 function App() {
   return (
     <div className="App">
-      <Topbar />
+      {/* <Topbar /> */}
+      {/* <Home /> */}
       <Profile />
     </div>
   );
